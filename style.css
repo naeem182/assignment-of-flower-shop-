@@ -6,7 +6,7 @@
 }
 
 .firstpage {
-    height: 850px;
+    height: 750px;
     background-color: rgba(229, 84, 115, 0.10);
 }
 
@@ -26,7 +26,7 @@
 
 .firstpage-col img {
     width: 634px;
-    height: 700px;
+    height: 600px;
     margin: 20px 10px;
 }
 
@@ -53,6 +53,8 @@
     border-radius: 8px;
     background: #E55473;
     margin: 7px;
+    border: none;
+    padding: 10px;
 
 
 }
@@ -60,6 +62,8 @@
 .hello-btn a {
     text-decoration: none;
     color: azure;
+    margin: 4px;
+    padding: 4px;
 }
 
 section {
@@ -106,4 +110,24 @@ section {
     align-items: center;
     margin-top: 100px;
     flex-basis: 30%;
+}
+
+/*hot-deal sec design*/
+.hot-deal {
+    height: 620px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 100px 0px;
+}
+
+.hot-deal-col {
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 140px;
+
+}
+
+span {
+    color: #E55473;
 }
