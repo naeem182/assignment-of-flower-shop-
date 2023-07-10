@@ -66,9 +66,6 @@
     padding: 4px;
 }
 
-section {
-    margin-bottom: 80px;
-}
 
 /* our feature flower*/
 .our-feature {
@@ -132,10 +129,17 @@ span {
     color: #E55473;
 }
 
+/*extra sec buyyyyyy*/
+.buy {
+    width: 80%;
+    margin: auto;
+}
+
 /*insta design*/
 .insta {
     width: 80%;
     margin: auto;
+
 }
 
 .insta-col {
@@ -150,13 +154,17 @@ span {
 /*deal sec*/
 .deal {
     background-image: url(images/Rectangle\ 9.png);
-    margin: 130px 0px;
     text-align: center;
     background-repeat: no-repeat;
     align-items: center;
     width: 80%;
-    height: 884px;
+    height: 480px;
     margin: auto;
+}
+
+
+.contact {
+    margin-bottom: 1px;
 }
 
 .contact input[type="text"],
@@ -169,4 +177,13 @@ span {
     border: 0;
     background: white;
     width: 50%;
+}
+
+/*footer-last page design*/
+.last-page {
+    background-color: #111010;
+    height: 444px;
+
+    margin-top: 120px;
+
 }
