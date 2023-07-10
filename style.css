@@ -146,3 +146,27 @@ span {
 
 
 }
+
+/*deal sec*/
+.deal {
+    background-image: url(images/Rectangle\ 9.png);
+    margin: 130px 0px;
+    text-align: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 80%;
+    height: 884px;
+    margin: auto;
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 20%;
+    padding: 18px 25px;
+    color: #181818;
+    border: 0;
+    background: white;
+    width: 50%;
+}
