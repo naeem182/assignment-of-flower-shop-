@@ -13,12 +13,13 @@
 .sec-row {
     display: flex;
     justify-content: space-between;
-    flex-direction: row-reverse;
+
 }
 
 .firstpage-col {
     margin: 10px 30px 10px 80px;
     flex-basis: 50%;
+    align-items: center;
 
 
 }
@@ -33,6 +34,8 @@
     color: #272727;
     font-size: 60px;
     font-weight: 800;
+    align-items: center;
+    margin-bottom: 1px;
 
 
 }
@@ -41,13 +44,50 @@
 
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
+    align-items: center;
 
 }
 
 .hello-btn {
     border-radius: 8px;
     background: #E55473;
+    margin: 7px;
 
 
+}
+
+.hello-btn a {
+    text-decoration: none;
+    color: azure;
+}
+
+section {
+    margin-bottom: 80px;
+}
+
+/* our feature flower*/
+.our-feature {
+    background-color: #fff;
+    width: 80%;
+    margin: auto;
+}
+
+.feature-col {
+    flex-basis: 33%;
+    margin: 2px;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: 5px;
+
+
+}
+
+.feature-col img {
+    width: 460px;
+    height: 650px;
+    align-items: center;
+    text-align: center;
+    border-radius: 300px 300px 0px 0px;
+    margin: 5px;
 }
