@@ -91,3 +91,19 @@ section {
     border-radius: 300px 300px 0px 0px;
     margin: 5px;
 }
+
+/*pg3 design*/
+.pg3 {
+    background-color: rgba(39, 39, 39, 0.05);
+    width: 80%;
+    height: 320px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.pg3-col {
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-basis: 30%;
+}
